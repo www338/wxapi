@@ -1,21 +1,3 @@
----
-#标题
-title: 送给别人女朋友的微信推送
-#标签
-tags:
-  - 教程
-#类别
-categories:
-  - 教程
-#文章顶部图片
-top_img: 'https://www.toopic.cn/public/uploads/small/1642752084447164275208446.png'
-comments: true
-#时间
-date: 2022-08-20
-#封面图片
-cover: https://open.weixin.qq.com/zh_CN/htmledition/res/assets/res-design-download/icon_res_download_collect.png
-keywords:
----
 > # 微信推送开发文档介绍
 > ## 根据模板发送消息
 ```http
