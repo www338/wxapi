@@ -2,7 +2,7 @@ import random
 from time import time, localtime
 import requests
 from datetime import datetime
-import re
+import re,os,sys
 
 
 #########################################################################################################
@@ -176,3 +176,5 @@ if __name__ == "__main__":
         # 传入省份和市获取天气信息
         city_name, weather, max_wd, min_wd,shidu,tips = weather(city_id)
         send(template_id,user, access_token, city_name, weather, max_wd, min_wd,shidu,tips, yy,cqyq)
+    os.system("pause")
+    sys.exit(1)
